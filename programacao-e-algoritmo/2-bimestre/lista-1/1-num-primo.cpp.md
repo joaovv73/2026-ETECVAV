@@ -1,17 +1,17 @@
-#include <iostream>
+    #include <iostream>
 
 
-int main() {
+    int main() {
 	
-bool primo;
+    bool primo;
 	int numero;
 	using std::cout;
 	using std::cin;
 	
-cout <<"Podemos descobrir se o numero e primo ou nao, digite um numero:";
+    cout <<"Podemos descobrir se o numero e primo ou nao, digite um numero:";
 	cin >> numero;
 	
-if(numero < 2){
+    if(numero < 2){
 		primo == false;
 	}
 	 else {
@@ -28,5 +28,5 @@ if(numero < 2){
         cout << numero << "nao e primo." << "\n";
     }
 
- return 0;
-}
+    return 0;
+    }
