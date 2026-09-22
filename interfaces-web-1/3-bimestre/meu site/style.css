@@ -1,0 +1,160 @@
+
+body {
+margin:  0;
+font-family: Arial, sans-serif;
+background-color: #ffffff;
+color: #222;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 20px;
+}
+
+.titulo h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+
+.titulo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand {
+font-size: 22px;
+font-weight: bold;
+}
+
+.nav-link {
+margin-left: 10px;
+}
+
+.inicio {
+    min-height: 450px;
+
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(234, 242, 255, 0) 60%,
+            #f4f7fb 100%
+        ),
+        url("chat.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 80px 20px;
+}
+
+
+.inicio h1 {
+font-size: 40px;
+margin-bottom: 15px;
+}
+
+.subtitulo {
+font-size: 18px;
+color: #555;
+}
+
+.inicio img {
+width: 250px;
+height: 250px;
+object-fit: contain;
+margin-top: 20px;
+}
+
+
+.conteudo {
+max-width: 1000px;
+margin: 40px auto;
+padding: 30px;
+background-color: #ffffff;
+border-radius: 10px;
+}
+
+.conteudo h2 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.conteudo h3 {
+margin-top: 30px;
+margin-bottom: 15px;
+}
+
+.conteudo p {
+font-size: 17px;
+line-height: 1.7;
+text-align: justify;
+}
+.rodape {
+background-color: #1f2937;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 50px;
+}
+
+.rodape p {
+margin: 0;
+font-size: 15px;
+}
+
+.rodape a {
+color: white;
+text-decoration: none;
+}
+
+.rodape a:hover {
+text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+
+.inicio h1 {
+    font-size: 30px;
+}
+
+.inicio img {
+    width: 200px;
+    height: 200px;
+}
+
+.conteudo {
+    margin: 20px;
+    padding: 20px;
+}
+
+.conteudo p {
+    font-size: 16px;
+}
+
+}
